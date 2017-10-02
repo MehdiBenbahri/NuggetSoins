@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <Authors>Benoit Roche</Authors>
+    <Company>BTS SIO - Lycée Bonaparte</Company>
+    <Product>Paquet Nugget</Product>
+    <Description>Un paquets pour avoir les classes du TP Nugget</Description>
+    <Copyright>BTS SIO - Lycée Bonaparte</Copyright>
+    <RepositoryUrl>https://github.com/MehdiBenbahri/TP-nugget</RepositoryUrl>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\net461\NuggetSoins.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
