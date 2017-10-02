@@ -10,7 +10,9 @@ namespace NuggetSoins
     public class IntervenantExterne : Intervenant
 
     {
-
+        /// <summary>
+        /// Attribut de la classe
+        /// </summary>
         private string specialite;
 
         private string adresse;
