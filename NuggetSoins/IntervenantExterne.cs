@@ -14,7 +14,9 @@ namespace NuggetSoins
         /// Attribut de la classe
         /// </summary>
         private string specialite;
-
+        /// <summary>
+        /// c'est l'adresse
+        /// </summary>
         private string adresse;
 
         private string tel;
